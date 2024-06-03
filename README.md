@@ -14,4 +14,9 @@ UTZ & Shiru's 1bit music from the ZX Spectrum ported to the Sam Coupe computer, 
 
 5. Listen to the bad timing, but !working!, 1bit beeper tunes from your Sam Coupe emulator or real hardware.
 
-6. 
+
+
+   Sam Coupe uses Ports 511 & 255 for AY music, whilst it uses bit 4 on port 254 ($FE) for its direct speaker/beeper access (same as ZX speccy).
+   Assembly origin is typically $8000.
+
+   

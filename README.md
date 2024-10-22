@@ -12,7 +12,7 @@ Note that the speccy and a number of other Z80's typically run around the 3.5 mh
    Nothing else is required; no fancy headers required.  Directly assemble any of the ZX's asm code to $8000, place on to a disk image, load the disk image, run the load command and listen.
 
 
-1. Assemble the 1-bit music straight to a binary - as a standard ZX spectrum binary.
+1. Assemble the 1-bit music straight to a binary - as a standard ZX spectrum binary.  Depending on the asm code, most will assemble with either SJASMPLUS (Shiru's preferred assembler) or PASMO (Utz's typical preferred assembler). SJASMPLUS can be found on Github. Pasmo can be found via google search on some little-known ZX website.
 
 2. Use a disk manager to create a disk image, and add the binary.  eg: "Andrew Collier's SimCoupe .DSK manipulator" utility. Write the assembled music binary (MUSIC.BIN)  to the disk image. Write the disk image to a disk file (MUSIC.DSK).
 
